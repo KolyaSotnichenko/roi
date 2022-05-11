@@ -30,6 +30,10 @@ const Header = (props: Props) => {
                     },
                     '@media screen and (max-width: 480px)': {
                         width: '390px',
+                        mt: '126px'
+                    },
+                    '@media screen and (min-width: 1200px) and (max-width: 1366px)': {
+                        mt: '50px'
                     } 
                 }}
             >
@@ -50,9 +54,9 @@ const Header = (props: Props) => {
                             '@media screen and (max-width: 768px)': {
                                 fontSize: '24px',
                             },
-                            // '@media screen and (max-width: 979px)': {
-                            //     color: '#ffffff'
-                            // }
+                            '@media screen and (max-width: 480px)': {
+                                color: '#ffffff'
+                            }
                         }}
                     >
                         Стабильная работа с отличным ROI
@@ -69,9 +73,9 @@ const Header = (props: Props) => {
                             '@media screen and (max-width: 768px)': {
                                 fontSize: '36px',
                             },
-                            // '@media screen and (max-width: 979px)': {
-                            //     color: '#ffffff'
-                            // }
+                            '@media screen and (max-width: 480px)': {
+                                color: '#ffffff'
+                            }
                         }}
                     >
                         Настоящая магия 
@@ -85,9 +89,9 @@ const Header = (props: Props) => {
                             '@media screen and (max-width: 768px)': {
                                 fontSize: '18px',
                             },
-                            // '@media screen and (max-width: 979px)': {
-                            //     color: '#ffffff'
-                            // }
+                            '@media screen and (max-width: 480px)': {
+                                color: '#ffffff'
+                            }
                         }}
                     >
                         Первая автоматизированная платформа для работы с мобильными приложениями

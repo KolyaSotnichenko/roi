@@ -43,9 +43,9 @@ const Home: NextPage = () => {
         position: 'absolute',
         top: '200px',
         left: '150px',
-        '@media screen and (max-width: 979px)': {
-          display: 'none',
-        },
+        // '@media screen and (max-width: 979px)': {
+        //   display: 'none',
+        // },
         '@media screen and (min-width: 1366px) and (max-width: 1920px)': {
           top: '295px'
         },
@@ -53,6 +53,10 @@ const Home: NextPage = () => {
           top: '295px',
           left: '125px'
         }, 
+        '@media screen and (max-width: 480px)': {
+          top: '100px',
+          left: '40px'
+        },
       }}
     >
       <Box>
