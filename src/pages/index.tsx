@@ -59,7 +59,7 @@ const Home: NextPage = () => {
         <Image src={planets} width={1259} height={896} />
       </Box>
       <Box>
-        <Image src={rocket} width={610} height={725}/>
+        <Image src={rocket} width={710} height={925}/>
       </Box>
     </Box>
     <Container maxWidth={false} sx={{
