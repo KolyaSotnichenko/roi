@@ -41,11 +41,18 @@ const Home: NextPage = () => {
       sx={{
         display: 'flex',
         position: 'absolute',
-        top: '18%',
+        top: '200px',
         left: '150px',
         '@media screen and (max-width: 979px)': {
-          display: 'none'
-        }
+          display: 'none',
+        },
+        '@media screen and (min-width: 1366px) and (max-width: 1920px)': {
+          top: '295px'
+        },
+        '@media screen and (min-width: 980px) and (max-width: 1366px)': {
+          top: '295px',
+          left: '125px'
+        }, 
       }}
     >
       <Box>
